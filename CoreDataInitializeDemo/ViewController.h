@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UITableView*   _tableView;
+    NSArray*                _masters;
+}
+@property(nonatomic, retain) NSArray* masters;
 
 @end
